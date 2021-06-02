@@ -1,5 +1,5 @@
 <h1>{{ question.question_text }}</h1>
-
+<a href="{% url 'bucketlist:index' %}">Home Page</a>
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
 <form action="{% url 'bucketlist:vote' question.id %}" method="post">
