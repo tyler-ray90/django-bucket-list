@@ -1,1 +1,1 @@
-web: gunicorn django_bucketlist.wsgi
+web: gunicorn bucket_list.wsgi
